@@ -5,7 +5,7 @@
 ## 시작가이드
 ### Requirements
 For builng and running the application you need:
- - Node.js
+ - Node.js 16.10.0
 
 ## Stacks🕹
 ### Environment
