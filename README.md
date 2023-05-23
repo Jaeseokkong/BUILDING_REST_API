@@ -23,6 +23,8 @@ For builng and running the application you need:
 
 ## 개요
 ### 디렉토리 구조
+```
+BUILDING_REST_API
 ├─ nodemon.json
 ├─ package-lock.json
 ├─ package.json
@@ -30,3 +32,4 @@ For builng and running the application you need:
 ├─ src
 │  └─ index.ts
 └─ tsconfig.json
+```
