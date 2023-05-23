@@ -23,6 +23,7 @@ For builng and running the application you need:
 
 ## 아키텍쳐
 ### 디렉토리 구조
+
 ```
 BUILDING_REST_API
 ├─ nodemon.json
@@ -30,11 +31,19 @@ BUILDING_REST_API
 ├─ package.json
 ├─ README.md
 ├─ src
-│  ├─ db : 모델 정의
-│  │  └─ users.ts
-│  ├─ helpers : 인증모듈 암호화
-│  │  └─ index.ts
-│  └─ index.ts
-└─ tsconfig.json
-
+│  ├─ controllers : 컨트롤러
+│  │  ├─ authentication.ts : 로그인, 회원가입
+│  │  └─ users.ts : 유저 정보
+│  ├─ db : 데이터베이스 정의
+│  │  └─ users.ts : 유저 스키마
+│  ├─ helpers : 유틸리티
+│  │  └─ index.ts : 암호화
+│  ├─ index.ts : 서버정보
+│  ├─ middlewares 
+│  │  └─ index.ts : 컨트롤러 처리전 확인
+│  └─ router : 라우터 (url 분리)
+│     ├─ authentication.ts : 로그인, 회원가입 라우터
+│     ├─ index.ts
+│     └─ users.ts : 유저 정보
+└─ tsconfig.json 
 ```
