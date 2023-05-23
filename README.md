@@ -21,7 +21,7 @@ For builng and running the application you need:
 ### Communication
 <img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white"/>
 
-## 개요
+## 아키텍쳐
 ### 디렉토리 구조
 ```
 BUILDING_REST_API
@@ -30,6 +30,11 @@ BUILDING_REST_API
 ├─ package.json
 ├─ README.md
 ├─ src
+│  ├─ db : 모델 정의
+│  │  └─ users.ts
+│  ├─ helpers : 인증모듈 암호화
+│  │  └─ index.ts
 │  └─ index.ts
 └─ tsconfig.json
+
 ```
