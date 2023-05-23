@@ -22,3 +22,11 @@ For builng and running the application you need:
 <img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white"/>
 
 ## 개요
+### 디렉토리 구조
+├─ nodemon.json
+├─ package-lock.json
+├─ package.json
+├─ README.md
+├─ src
+│  └─ index.ts
+└─ tsconfig.json
